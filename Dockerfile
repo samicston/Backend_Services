@@ -1,4 +1,4 @@
-FROM openjdk:11.0.11-alpine AS build
+FROM openjdk:15-slim-buster AS build
 
 WORKDIR /commCourier
 

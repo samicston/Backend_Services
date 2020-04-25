@@ -1,4 +1,4 @@
-FROM openjdk-11:11.0.11 AS build
+FROM openjdk:11.0.11-alpine AS build
 
 WORKDIR /commCourier
 

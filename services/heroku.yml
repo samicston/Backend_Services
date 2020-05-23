@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: java -jar /commCourier/services/webapp-runner.jar /commCourier/services/commcourier.war
